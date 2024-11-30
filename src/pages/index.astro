@@ -6,6 +6,61 @@ import Layout from '../layouts/Layout.astro';
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<title>Bienvenidos</title>
+  <style>
+    /* Estilos básicos para el diseño */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 20px; 
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    main {
+      padding: 20px;
+      margin-bottom: 50px; /* Para que el contenido no se superponga con el footer */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hola Soy jaime</h1>
+    <nav>
+      <a href="#home" style="color: white; text-decoration: none; margin: 0 10px;">Home</a>
+      <a href="#about" style="color: white; text-decoration: none; margin: 0 10px;">About</a>
+      <a href="#contact" style="color: white; text-decoration: none; margin: 0 10px;">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2></h2>
+    <p>This is where your main content goes.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Your Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
